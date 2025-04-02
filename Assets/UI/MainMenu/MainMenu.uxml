@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main.uss?fileID=7433441132597879392&amp;guid=1ff3db241dcf8bd40a6d5c47e5588971&amp;type=3#Main" />
+    <ui:VisualElement class="overlay" />
+    <ui:VisualElement class="menu-container" style="top: 332px; left: 816px;">
+        <ui:VisualElement class="menu-logo" />
+        <ui:Label name="title" text="Gatos y Perros" class="title" style="-unity-text-align: upper-center;" />
+        <ui:VisualElement class="buttons-container">
+            <ui:Button name="playButton" text="JUGAR" class="menu-button" />
+            <ui:Button name="optionsButton" text="OPCIONES" class="menu-button" />
+            <ui:Button name="creditsButton" text="CRÉDITOS" class="menu-button" />
+            <ui:Button name="exitButton" text="SALIR" class="menu-button" />
+        </ui:VisualElement>
+        <ui:Label name="footer" text="© 2025 Tu Estudio" class="footer" />
+    </ui:VisualElement>
+</ui:UXML>

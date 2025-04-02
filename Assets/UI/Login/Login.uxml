@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Login/login.uss?fileID=7433441132597879392&amp;guid=f22dc1a3ef6695f48a7ba3201654ad85&amp;type=3#login" />
+    <ui:VisualElement class="login-container">
+        <ui:Label text="Iniciar Sesión" class="title" />
+        <ui:TextField name="emailField" label="Email" />
+        <ui:TextField name="passwordField" label="Contraseña" password="true" />
+        <ui:Button name="loginButton" text="Login" />
+        <ui:Button name="registerButton" text="Registrarse" />
+        <ui:Label name="errorLabel" class="error-message" />
+    </ui:VisualElement>
+</ui:UXML>
