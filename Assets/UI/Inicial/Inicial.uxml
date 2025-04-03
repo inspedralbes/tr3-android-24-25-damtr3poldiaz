@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Inicial/Inicial.uss?fileID=7433441132597879392&amp;guid=9a8182f15c1bbb14398a773f24055a24&amp;type=3#Inicial" />
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/gatoperro.png?fileID=2800000&amp;guid=ccd9bbdf8d98fb34c924fbe7e177e43b&amp;type=3#gatoperro&quot;);">
+        <ui:Button name="btnLogin" text="Press to continue" />
+    </ui:VisualElement>
+</ui:UXML>
